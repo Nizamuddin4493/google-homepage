@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*   the header CSS   */
+.navbar{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+} 
+.l-box{
+    width: auto;
+}
+.l-box ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.l-box ul li a{
+    text-decoration: none;
+    color: black;
+}
+.r-box{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+.r-box ul li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+    padding-top: px;
+}
+.r-box ul li a{
+    text-decoration: none;
+    color: black;
+}
+.app-icon{
+    margin-right: 10px;
+    width: 30px;
+}
+.user-img{
+    padding-right: 10px;
+}
+/*   The header CSS End   */
+
+/************************************************************************************/
+
+/*   The Body Section CSS   */
+.mBody{
+    align-items: center;
+    padding-top: 100px;   
+}
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.serchBox{
+    border: 1px solid gainsboro;
+    max-width: 600px;
+    min-height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+input[type=text] {
+    min-width: 530px;
+    padding: 10px 0;
+    border: none;   
+}
+.btn1{
+    background-color: #F8F9FA;
+    color: black;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid ghostwhite;
+    border-radius: 3px;
+}
+.btn1:hover{
+    border: 1px solid #DADCE0;
+}
+.btn2{
+    background-color: #F8F9FA;
+    color: black;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid ghostwhite;
+    border-radius: 3px;
+}
+.btn2:hover{
+    border: 1px solid #DADCE0;
+}
+.fCountry{
+    background-color: #F2F2F2;
+    
+    height: 40px;
+    margin-top: 80px;
+    padding: 20px 0 0 20px;
+    color: #70757A;
+}
+.footerLinks{
+    display: flex;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 60px;
+}
+.b-Links ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+.b-Links ul li a{
+    text-decoration: none;
+    
+    color: #70757A;
+}
+.b-Links-r{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+.b-Links-r ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+.b-Links-r ul li a{
+    text-decoration: none;
+    color: #70757A;
+}
